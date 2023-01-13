@@ -1,4 +1,4 @@
-package dev.johnesleyer.QRBackend.RestAPI;
+package dev.johnesleyer.QRBackend.RestAPI.controllers;
 
 import java.util.List;
 
@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import dev.johnesleyer.QRBackend.RestAPI.models.Student;
+import dev.johnesleyer.QRBackend.RestAPI.repositories.StudentRepository;
 
 @RestController
 @RequestMapping("/api/students")
